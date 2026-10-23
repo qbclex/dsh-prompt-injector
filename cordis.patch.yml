@@ -1,0 +1,7 @@
+# dsh-prompt-injector —— bundle 自带挂载声明
+# 往 profile 配置树里插一行插件；状态（注入的提示词 + 历史）由插件自己
+# 持久化在 $DSH_HOME/prompt-injector/state.json，不走 config。
+
+- insert:
+    - id: prompt-injector
+      name: dsh-prompt-injector

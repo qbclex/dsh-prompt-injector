@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Prompt Injector",
+    "description": "Inject a prepared prompt into the harness system prompt for every session, with one-click rollback."
+  }
+}
